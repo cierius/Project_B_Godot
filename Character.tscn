@@ -7,9 +7,12 @@
 radius = 10.7423
 
 [node name="Character" type="KinematicBody2D"]
+collision_mask = 0
 script = ExtResource( 2 )
+health = 25
 
 [node name="Sprite" type="Sprite" parent="."]
+rotation = -1.5708
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
